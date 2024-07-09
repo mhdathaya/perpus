@@ -1,0 +1,164 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.frame{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #B11116;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 124px;
+    justify-content: end;
+}
+
+.navbar p{
+    margin-right: 125px;
+}
+
+.heading{
+    display: flex;
+    gap: 600px;
+    flex-direction: row;
+}
+
+.icon-fakultas{
+    width: 200px;
+    height: 50.5px;
+    display: flex;
+    margin-left: 52px;
+}
+
+.hdg1{
+    display: flex;
+    gap: 76px;
+    font-weight: bold;
+}
+
+.hdg1 :nth-child(1){
+    text-decoration: underline;
+    text-decoration-color: #B11116;
+    text-decoration-thickness: 2px;
+}
+
+.hdg1 p:hover{
+    text-decoration: underline;
+    color: #B11116;
+    text-decoration-thickness: 2px;
+}
+
+.bungkus1{
+    display: flex;
+    justify-content: center;
+    margin-top: 156px;
+    gap: 280px;
+}
+
+.teks1{
+    width: 521px;
+    height: 146px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.teks1 :nth-child(1){
+    color: #B11116;
+    font-size: 32px;
+}
+
+.bungkus1 img{
+    width: 300px;
+    height: 111.43px;
+}
+
+.teks2{
+    color: #B11116;
+    display: flex;
+    justify-content: center;
+    margin-top: 258px;
+    font-size: 24px;
+}
+
+.bungkus2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+    margin-top: 91px;
+}
+
+.teks3{
+    width: 359px;
+    height: 72px;
+}
+
+.teks3 :nth-child(1){
+    color: #B11116;
+    font-size: 24px;
+}
+
+.teks4{
+    width: 359px;
+    height: 144px;
+}
+
+.teks4 :nth-child(1){
+    color: #B11116;
+    font-size: 24px;
+}
+
+.teks5{
+    width: 359px;
+    height: 72px;
+}
+
+.teks5 :nth-child(1){
+    color: #B11116;
+    font-size: 24px;
+}
+
+.box1{
+    width: 100%;
+    height: 375px;
+    background-color: #B11116;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 196px;
+}
+
+.bungkus3{
+    width: 467px;
+    height: 114px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 39px;
+}
+
+.bungkus3 img{
+    width: 229px;
+    height: 61px;
+}
+
+.footer{
+    width: 100%;
+    height: 73px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.footer p{
+    color: #FFFFFF;
+    margin-left: 49px;
+}
